@@ -1,0 +1,40 @@
+body {
+    padding: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.table {
+    width: 100%;
+}
+
+.header .images{
+    text-align: center;
+}
+
+.header table {
+    margin-bottom: 30px;
+}
+.header h3{
+    text-align: center;
+    color: #fff;
+    font-size: 14px !important;
+    background-color: #212121;
+}
+.header table td{
+    padding: 2px;
+}
+
+.header table td.descricao {
+    font-weight: bold;
+    
+    width: 200px;
+}
+
+.content table thead{
+    background-color: #424242;
+    color: #fff;
+}
+
+.content table tbody td{
+    border-bottom: 1px solid #ccc;
+}
