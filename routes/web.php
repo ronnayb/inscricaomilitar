@@ -74,4 +74,9 @@ Route::group(['prefix' => 'inscricao', 'as' => 'inscricao.'],function(){
 	Route::get('/inscritos','InscricaoController@find')->name('find');
 	Route::get('/{id}','InscricaoController@show')->name('show');
 	Route::get('/seletivo/{idSeletivo}/curso/{idCurso}','InscricaoController@relatorio')->name('relatorio');
+	
+});
+
+Route::group(['prefix' => 'relatorios', 'as' => 'relatorios'],function(){
+	Route::get('/inscritos/seletivo/{id}/','RelatoriosController@inscritosSeletivos')->name('inscritosseletivo');
 });

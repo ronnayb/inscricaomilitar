@@ -24,6 +24,7 @@
                             <li><a href="{{ route('inscricao.list',$seletivo->id) }}">Inscritos</a></li>
                         </ul>
                     </div>
+                    <a href="#" class="btn btn-sm btn-info"  target="_black">Relatório Geral</a>
                 </div>
                 <div class="panel-body">
                     <div class="col-md-5">

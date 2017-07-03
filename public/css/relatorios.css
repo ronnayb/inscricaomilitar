@@ -1,7 +1,6 @@
 body {
     padding: 10px;
     font-size: 12px;
-    text-transform: uppercase;
 }
 .table {
     width: 100%;
@@ -22,6 +21,7 @@ body {
 }
 .header table td{
     padding: 2px;
+    border: 1px solid #000;
 }
 
 .header table td.descricao {
@@ -29,12 +29,16 @@ body {
     
     width: 200px;
 }
+.content{
+    font-size: 8px;
+}
 
 .content table thead{
-    background-color: #424242;
+    background-color: #000;
     color: #fff;
 }
 
 .content table tbody td{
     border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
 }
