@@ -1,0 +1,149 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17/10/2016, 11:22:08
+    Author     : Ronnayb Lima de Sousa
+*/
+*{
+    font-family: CarroisGothic-Regular,sans-serif;
+}
+body{margin: 0px;
+}
+header{overflow: hidden; padding: 0.5rem; height: auto;}
+article{padding: 0px;margin:0px;height: auto;display: block;overflow: hidden;text-align: center;}
+article h1{text-align: center;font-size:2.5rem;}
+article p{text-align: center;}
+ul{padding-left: 1em;list-style-type: none;}
+
+.destaque h1{text-align: center;margin-left: 1rem; font-size: 1.2rem;height: 112px;width: 20rem; font-weight: normal; font-family: TrajanPro-Regular; border-left: 1px solid #fff;vertical-align: middle;display: table-cell}
+.destaque img{}
+.logo{width: 40%;margin-left: auto;margin-right: auto;margin-bottom: 50px;display: block;overflow: hidden;}
+.logo div{display: block; width: 50%; float: left;}
+
+@font-face{font-family: TrajanPro-Regular;src: url(../font/TrajanPro-Regular.otf);}
+@font-face{font-family: TrajanPro-Bold;src: url(../font/TrajanPro-Bold.otf);}
+
+@font-face{font-family: CarroisGothic-Regular;src:url(../font/CarroisGothic-Regular.ttf);}
+
+.destaque{min-height: 550px;padding-top: 3em;padding-bottom: 3em;background-image: url(../image/bg_header_01.png);background-position-x: 0px;background-repeat: no-repeat;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.destaque ul{width: 40%;padding: 0px;}
+
+.content{width: 70%;margin-left: auto;margin-right: auto;display: block;overflow: hidden;}
+.content article li{margin: 1rem;overflow: hidden;display: block;}
+
+.footer{padding: 3em;height: 200px;}
+.footer-head{text-align: center; font-size: 1.5rem;font-weight: normal;}
+.footer-h1{text-align: center; font-size: 1.2rem;font-weight: normal;}
+.footer-p{text-align: center; font-size: 0.9rem;font-weight: normal;}
+
+.btn-home{height: auto; padding: 1rem;margin: 0.5rem;text-decoration:none;overflow: hidden;display: block; 
+         transition: all 0.3s;
+         -webkit-transition: all 0.3s;
+         -moz-transition: all 0.3s;
+         -o-transition: all 0.3s;
+         border-radius: 2px;
+         -webkit-border-radius: 2px;
+         -moz-border-radius: 2px;
+}
+.btn-home:hover{background: #FFFFFF;}
+
+.list-pdf{text-decoration: none; overflow: hidden;
+}
+.list-pdf:hover{font-weight: bold;}
+.list-pdf:hover .icon{margin-left: 0.5rem;}
+.icon{margin-right: 1rem;}
+
+.tect-green{color:#1ABB9C;}
+.text-gray{color:#F7F7F7;}
+.text-blue{color:#73879C;}
+.text-white{color:#FFFFFF;}
+.text-dark-blue{color:#2A3F54;}
+.text-red{color:#B5271B;}
+
+.bg-green{background-color:#1ABB9C;}
+.bg-gray{background-color: #F7F7F7;}
+.bg-white{background-color: #FFFFFF;}
+.bg-blue{background-color: #73879C;}
+.bg-dark-blue{background-color: #2A3F54;}
+.bg-red{background-color: #B5271B;}
+
+.center{display: block;margin-left: auto;margin-right: auto;}
+.left{float: left;}
+.right{float: right;}
+.box{display: box;}
+.inline-box{display: inline-block;}
+
+.totop{top:85%;left: 90%;height: 50px;width: 50px;position: fixed;overflow: hidden;box-sizing: border-box;
+    text-align: center;
+    border-radius: 25px;
+    z-index: 1;
+    display: block;
+}
+.ul-box{width: 98%;margin-left: auto;margin-right: auto;}
+.ul-box > li{width: 29%;display: block; float: left;padding: 1em;height: inherit;
+            border-radius: 5px;text-align: center;
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;}
+.ul-box > li > ul{text-align: left; list-style-type: square; bottom: 10px;}
+.ul-box-icon{
+    background-repeat:  no-repeat;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.boina{background-image: url(../image/icon/boina_vermelha150x150.png);}
+.li-pdf{background-image: url(../image/icon/pdf150x150.png);}
+.li-inscricao{background-image: url(../image/icon/inscricao150x150.png);}
+.ul-box li{
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+#cursos .ul-box > li{height: 450px;}
+.ul-box li:hover .ul-box-icon{
+    background-color: rgba(255,255,255,0.95);
+}
+.ul-box li:hover{
+    background-color: #73879C;
+    color: #fff;
+}
+.ul-box li a{text-decoration: none;}
+.ul-box li:hover a{color: #fff;}
+.ul-box-icon div{
+    background-color: rgba(0,0,0,0.09);
+    width: 50%;
+    height: 200px;
+    float: right;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+div > #logo_militar{
+    filter:blur(0px);
+    transition: width 2s;
+    -webkit-transition: filter 1s;
+    transition:  filter 1s;
+}
+div#div_logo h1{
+    color: #FFF;
+    z-index: -100;   
+}
+div:hover > #logo_militar{
+    filter:blur(1px);
+}
+a:hover{
+    text-decoration: none;
+}
