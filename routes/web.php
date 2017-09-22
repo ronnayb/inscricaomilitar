@@ -29,7 +29,6 @@ Route::group(['prefix' => 'polos', 'as' => 'polos.'],function(){
 	Route::delete('/{id}','PoloController@destroy')->name('delete');
 });
 
-
 Route::group(['prefix' => 'unidades', 'as' => 'unidades.'],function(){
 	Route::get('/', 'UnidadeController@index')->name('list');
 	Route::get('/polo/{id?}', 'ApiController@unidades')->name('show');
@@ -74,8 +73,7 @@ Route::group(['prefix' => 'inscricao', 'as' => 'inscricao.'],function(){
 	Route::put('/{id}','InscricaoController@update')->name('update');
 	Route::get('/inscritos','InscricaoController@find')->name('find');
 	Route::get('/{id}','InscricaoController@show')->name('show');
-	Route::get('/seletivo/{idSeletivo}/curso/{idCurso}','InscricaoController@relatorio')->name('relatorio');
-	
+	Route::get('/seletivo/{idSeletivo}/curso/{idCurso}','InscricaoController@relatorio')->name('relatorio');	
 });
 
 Route::group(['prefix' => 'relatorios', 'as' => 'relatorios'],function(){
